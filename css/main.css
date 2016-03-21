@@ -13,6 +13,34 @@
     width: 100%;
 }
 
+body {
+    line-height: 200%;
+    background-image: url("new_year_background.png");
+}
+#footer {
+    line-height: 120%;
+    font-size: 15px;
+}
+
+#about, #orcas-island, #map,
+#jobs, #prepare, #request-info {
+    margin-top: 75px;
+}
+
+#map, #request-info {
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.job-types {
+    margin-top: 30px;
+}
+
+
+
 
 
 
