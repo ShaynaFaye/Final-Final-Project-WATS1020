@@ -2,13 +2,13 @@
 // ready handler
 $(document).on('ready', function() {
     
-//Create method that only allows letters and spaces, no numbers:
+//Created method that only allows letters and spaces, no numbers:
     jQuery.validator.addMethod("lettersonly", function(value, element) {
         return this.optional(element) || /^[a-z\s]+$/i.test(value);
     }, "Letters only please")
     
-  //  Define a validation object for use on your page & 
-  //  connect the validation object to an event handler tied to the submit button::
+  //  Defined a validation object for use on page & 
+  //  connected the validation object to an event handler tied to the submit button::
     $( "#request-info" ).validate({
          submitHandler: function(form) {
             // If form is valid, submit it!
